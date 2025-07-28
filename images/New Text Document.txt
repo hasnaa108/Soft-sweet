@@ -1,0 +1,152 @@
+"use strict";
+
+// 👇 بيانات JSON ضمن السكربت (لا حاجة لرابط خارجي)
+const data = {
+  cakes: [
+    {
+      title: "Berry Tart",
+      previewDescription: "Crispy tart topped with fresh mixed berries.",
+      price: 5.95,
+      image: "https://images.unsplash.com/photo-1589571894960-20bbe2828d84?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Chocolate Eclair",
+      previewDescription: "Choux pastry filled with cream and chocolate glaze.",
+      price: 4.80,
+      image: "https://images.unsplash.com/photo-1600180758895-3c6508c18116?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Strawberry Shortcake",
+      previewDescription: "Layers of sponge cake, cream, and fresh strawberries.",
+      price: 6.20,
+      image: "https://images.unsplash.com/photo-1551024709-8f23befc6c9f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Macarons Assortment",
+      previewDescription: "Colorful French macarons in multiple flavors.",
+      price: 12.50,
+      image: "https://images.unsplash.com/photo-1563805042-7684f8b4a242?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Mini Cheesecakes",
+      previewDescription: "Individual cheesecakes with berry topping.",
+      price: 7.30,
+      image: "https://images.unsplash.com/photo-1599785209793-9f9bd90c4b7f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Cream Puffs",
+      previewDescription: "Light pastry filled with vanilla cream.",
+      price: 4.50,
+      image: "https://images.unsplash.com/photo-1563805042410-8baef5a1c1d9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Chocolate Brownie",
+      previewDescription: "Fudgy brownie with chocolate chunks.",
+      price: 3.75,
+      image: "https://images.unsplash.com/photo-1559628233-e19ae0db2ee2?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Fruit Parfait",
+      previewDescription: "Layers of yogurt, granola, and fresh fruit.",
+      price: 5.00,
+      image: "https://images.unsplash.com/photo-1589915145440-2c0efa7f0b53?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Honey Baklava",
+      previewDescription: "Sweet flaky pastry with nuts and honey.",
+      price: 6.00,
+      image: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Vanilla Cupcakes",
+      previewDescription: "Classic cupcakes with vanilla frosting.",
+      price: 4.20,
+      image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Cinnamon Rolls",
+      previewDescription: "Warm rolls with cinnamon and glaze.",
+      price: 4.75,
+      image: "https://images.unsplash.com/photo-1589923188900-1188777f4bb4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Pecan Pie Slice",
+      previewDescription: "Rich pie with sweet pecan filling.",
+      price: 5.50,
+      image: "https://images.unsplash.com/photo-1603247743279-34c6c1a1c68b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Red Velvet Cupcake",
+      previewDescription: "Moist cupcake with cream cheese frosting.",
+      price: 4.90,
+      image: "https://images.unsplash.com/photo-1611095968238-95e19b3dbc87?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Lemon Tart",
+      previewDescription: "Tangy lemon curd tart with zest.",
+      price: 5.85,
+      image: "https://images.unsplash.com/photo-1505253716361-6ae43c523f1a?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Chocolate Chip Cookie",
+      previewDescription: "Large cookie loaded with chocolate chips.",
+      price: 2.80,
+      image: "https://images.unsplash.com/photo-1605206370586-e877f76b49ee?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Tiramisu Glass",
+      previewDescription: "Individual tiramisu in a jar.",
+      price: 6.95,
+      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Blueberry Muffin",
+      previewDescription: "Soft muffin bursting with blueberries.",
+      price: 3.40,
+      image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Creme Brulee",
+      previewDescription: "Custard topped with crispy caramel.",
+      price: 6.90,
+      image: "https://images.unsplash.com/photo-1617472645821-07b32c8b70a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Fruit Cheesecake",
+      previewDescription: "Cheesecake with mixed fruit topping.",
+      price: 7.20,
+      image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Mini Chocolate Truffle",
+      previewDescription: "Rich bite-size chocolate truffle.",
+      price: 2.50,
+      image: "https://images.unsplash.com/photo-1584270354949-1f92dd0e8c94?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+};
+
+
+
+const container = document.getElementById("product-list");
+
+data.cakes.forEach(product => {
+  const div = document.createElement("div");
+  div.className = "product";
+  div.innerHTML = `
+    <img src="${product.image}" alt="${product.title}">
+    <h3>${product.title}</h3>
+    <p>${product.previewDescription}</p>
+    <p class="price">Price: $${product.price.toFixed(2)}</p>
+    <button class="add-btn">Add to Cart</button>
+  `;
+  container.appendChild(div);
+});
+
+// التعامل مع زر Add to Cart
+container.addEventListener("click", e => {
+  if (e.target.classList.contains("add-btn")) {
+    const title = e.target.parentElement.querySelector("h3").innerText;
+    alert(`تمت الإضافة إلى السلة: ${title}`);
+  }
+});

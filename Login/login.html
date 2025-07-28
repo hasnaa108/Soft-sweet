@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sweet Shop - Login</title>
+    <link rel="stylesheet" href="./login.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="main-navbar">
+    <div class="logo">
+        <img src="./logo.png" alt="Logo" />
+    </div>
+    
+    <div class="nav-links">
+        <a href="../Home/HOME.html">Home</a> <!--FLOW-->
+        <a href="../proudct fake/index.html">Start Shopping</a> <!--FLOW-->
+    </div>
+</nav>
+
+<!-- Centered Form -->
+<div class="center-form-container">
+    <div class="form">
+        <h2 id="form-title">🍰 Welcome to SOFT SWEET 🍩</h2>
+
+        <!-- login form -->
+        <form id="login-form"> 
+            <input type="email" id="login-email" placeholder="Enter Your Email" required/>
+            <input type="password" id="login-password" placeholder="Enter Your Password" required/>
+            <input  type="submit" value="Login"/>
+        </form>
+
+        <!-- register form -->
+        <form id="register-form" style="display: none;"> 
+            <input type="text" id="register-name" placeholder="Enter UserName" required/>
+            <input type="email" id="register-email" placeholder="Enter Your Email" required/>
+            <input type="password" id="register-password" placeholder="Enter Your Password" required/>
+            <input type="text" id="register-phone" placeholder="Enter phone Number" required/>
+            <input type="submit" value="Register"/>
+        </form>
+
+        <p id="switch-text">
+            Do not have an account? 
+            <a id="here" style="font-size: large;" href="#" onclick="ShowRegister()">
+                Register here
+            </a>
+        </p>
+
+        <div id="message" class="error-message"></div>
+    </div>
+</div>
+
+<script src="./login.js"></script>
+</body>
+</html>

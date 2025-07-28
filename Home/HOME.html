@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soft Sweet</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="HOME.css" />
+  </head>
+
+  <body>
+    <!-- ================NAV BAR================== -->
+    <nav>
+      <div class="nav-button">
+        <a href="../Login/login.html" class="btn">Log In</a>  <!--FLOW-->
+      </div>
+
+      <div class="nav-links">
+        <a href="#hero">Start Shopping</a> <!--FLOW-->
+        <a href="#contact-section">Contact us </a> <!--FLOW-->
+        <a href="#location-section">Location</a> <!--FLOW-->
+      </div>
+
+      <div class="logo">
+        <img src="./photos/GDED.png" alt="Logo" />
+      </div>
+    </nav>
+    <!-- ================NAV BAR================== -->
+
+    <!-- ===============Carousel================= -->
+
+    <section class="carousel">
+      <img
+        src="./New Photo/cloe-tourdot-fuentes-5ypqK2tBGVo-unsplash.jpg"
+        alt="Image 1"
+        class="carousel-image active"
+      />
+      <img
+        src="./New Photo/emrecan-arik-h1_R9-o9an0-unsplash (1).jpg"
+        alt="Image 2"
+        class="carousel-image"
+      />
+      <img
+        src="./New Photo/jacqueline-brandwayn-fA_dsZkS87s-unsplash.jpg"
+        alt="Image 3"
+        class="carousel-image"
+      />
+    </section>
+    <!-- ===============Carousel================= -->
+
+    <!-- ===============Card================= -->
+
+    <section id="hero" class="cards-section">
+      <div class="card" style="background-image: url('photos/_\ \(1\).jpeg')">
+        <h3>Weddings</h3>
+        <a href="../proudct fake/index.html" class="btn">SHOP NOW</a>
+      </div>
+
+      <div class="card" style="background-image: url('photos/_.jpeg')">
+        <h3>SEASONINGS</h3>
+        <a href="../proudct fake/index.html" class="btn">SHOP NOW</a>
+      </div>
+
+      <div
+        class="card"
+        style="
+          background-image: url('photos/Arome\ Bakery\ London\ Review\ _\ ET\ Food\ Voyage.jpeg');
+        "
+      >
+        <h3>Backery</h3>
+        <a href="../proudct fake/index.html" class="btn">SHOP NOW</a>
+      </div>
+    </section>
+    <!-- ===============card================= -->
+
+    <!-- ===============Location================= -->
+
+    <section id="location-section" class="location-section">
+      <h2>Find Us</h2>
+      <p class="address">📍 ITI Software Fundementals G2</p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.9142997507715!2d31.675201324834575!3d26.458491279463423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x144f57ae2f37bb73%3A0x6e7654e2e714ef92!2z2YXYudmH2K8g2KrZg9mG2YjZhNmI2KzZitinINin2YTZhdi52YTZiNmF2KfYqiDYrNin2YXYudipINiz2YjZh9in2Kw!5e0!3m2!1sar!2seg!4v1749727975898!5m2!1sar!2seg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- ===============Location================= -->
+
+    <!-- ===============footer================= -->
+
+    <footer id="contact-section" class="footer">
+      <div class="footer-content">
+        <!-- Column 1 -->
+        <div class="footer-column">
+          <h3>VISIT THE STEER</h3>
+          <p>LAS VEGAS</p>
+          <a href="#">308 W. Sahara Avenue</a><br />
+          <a href="#">Las Vegas, NV, 89102</a>
+          <p style="margin-top: 15px">NEW YORK</p>
+          <em>Coming Fall 2025</em><br />
+          <a href="#">1 Fifth Avenue</a><br />
+          <a href="#">New York, NY 10003</a>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-column">
+          <h3>SUPPORT</h3>
+          <a href="#">FAQ</a>
+          <a href="#">Shipping & Refund Information</a>
+          <a href="#">Manage Subscriptions</a>
+          <a href="#">Contact</a>
+          <a href="#">Your Privacy Choices</a>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-column">
+          <h3>COMPANY</h3>
+          <a href="#">About Us</a>
+          <a href="#">Journal</a>
+          <a href="#">Reviews</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-column">
+          <h3>RESTAURANT</h3>
+          <a href="#">Reservations</a>
+          <a href="#">Menu</a>
+          <a href="#">Private Dining</a>
+        </div>
+
+        <!-- Social icons -->
+        <div class="footer-social">
+          <a href="#"><img src="./ICONS/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="./ICONS/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="./ICONS/linkedin.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <img src="./photos/last.png" alt="Logo" class="footer-logo" />
+        <p>© 2025 Soft Sweets. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- ===============footer================= -->
+
+    <!-- ===============JAVA S => set interval for card dauration ================= -->
+
+    <script>
+      const images = document.querySelectorAll(".carousel-image");
+      let current = 0;
+
+      setInterval(() => {
+        images[current].classList.remove("active");
+        current = (current + 1) % images.length;
+        images[current].classList.add("active");
+      }, 3000);
+    </script>
+    <!-- ===============JAVA S => set interval for card dauration ================= -->
+  </body>
+</html>

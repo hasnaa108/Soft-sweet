@@ -1,0 +1,144 @@
+{
+  "cakes": [
+    {
+        "id" :"1",
+      "title": "Chocolate Cake",
+      "previewDescription": "Rich and moist chocolate cake.",
+      "price": 6.50,
+      "image": "https://bestrecipesuk.com/wp-content/uploads/2020/01/Chocolate-Cake-800x840.jpg?crop=1"
+    },
+    {
+        "id" :"2",
+      "title": "Strawberry Tart",
+      "previewDescription": "Fresh strawberries on buttery crust.",
+      "price": 5.90,
+      "image": "https://i.ytimg.com/vi/gOpT4zK0-vE/maxresdefault.jpg"
+    },
+    {
+        "id" :"3",
+      "title": "Vanilla Cupcake",
+      "previewDescription": "Soft cupcake with vanilla frosting.",
+      "price": 3.50,
+      "image": "https://thecakeblog.com/wp-content/uploads/2017/05/caramel-bourbon-vanilla-cupcakes-thumb-lg.jpg"
+    },
+    {
+        "id" :"4",
+      "title": "Macarons",
+      "previewDescription": "Colorful macarons with flavors.",
+      "price": 8.00,
+      "image": "https://sugarspunrun.com/wp-content/uploads/2023/03/Chocolate-Macarons-Recipe-1-of-1.jpg"
+    },
+    {
+        "id" :"5",
+      "title": "Ice Cream",
+      "previewDescription": "Three scoops of creamy ice cream.",
+      "price": 4.25,
+      "image": "https://emicecreamandpastry.com/wp-content/uploads/2025/04/EM-BANNER-e1745199673613.png"
+    },
+    {
+        "id" :"6",
+      "title": "Fruit Cheesecake",
+      "previewDescription": "Creamy cheesecake topped with fruits.",
+      "price": 6.75,
+      "image": "https://cdn.shopify.com/s/files/1/1921/3233/articles/SUNCORE_BLOG_EBONY_CARROT_AND_SPARKLY_PASSION_FRUIT_CHEESECAKE_jadoresmoothies.jpg?v=1676420427"
+    },
+    {
+        "id" :"7",
+      "title": "Chocolate Muffin",
+      "previewDescription": "Dark chocolate muffin with chips.",
+      "price": 3.90,
+      "image": "https://eatsdelightful.com/wp-content/uploads/2022/01/frosted-chocolate-cupcakes-on-wire-rack-7.jpg"
+    },
+    {
+        "id" :"8",
+      "title": "Cinnamon Roll",
+      "previewDescription": "Warm roll with cinnamon swirl.",
+      "price": 4.10,
+      "image": "https://buildyourbite.com/wp-content/uploads/2025/01/Cinnamon-Roll-Energy-Bites-30.jpg"
+    },
+    {
+        "id" :"9",
+      "title": "Red Velvet Cake",
+      "previewDescription": "Soft cake with cream cheese frosting.",
+      "price": 6.20,
+      "image": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2025/02/Red-Velvet-Cake_0014s.jpg"
+    },
+    {
+        "id" :"10",
+      "title": "Creme Brulee",
+      "previewDescription": "Custard dessert with caramel top.",
+      "price": 5.80,
+      "image": "https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/coconut-creme-brulee.jpg"
+    },
+    {
+        "id" :"11",
+      "title": "Fruit Tart",
+      "previewDescription": "Seasonal fruits on buttery tart.",
+      "price": 5.95,
+      "image": "https://mirjamskitchenyodel.com/wp-content/uploads/2022/07/Classic-French-Fruit-Tart-Mirjams-Kitchen-Yodel-7.png"
+    },
+    {
+        "id" :"12",
+      "title": "Baklava",
+      "previewDescription": "Layers of phyllo and sweet nuts.",
+      "price": 4.75,
+      "image": "https://silkroadrecipes.com/wp-content/uploads/2023/04/Easy-Greek-Baklava-Recipe-square.jpg"
+    },
+    {
+        "id" :"13",
+      "title": "Mini Donuts",
+      "previewDescription": "Assorted mini donuts with toppings.",
+      "price": 3.95,
+      "image": "https://fyf.tac-cdn.net/images/products/large/E-182.jpg?auto=webp&quality=60&width=690"
+    },
+    {
+        "id" :"14",
+      "title": "Blueberry Muffin",
+      "previewDescription": "Soft muffin with fresh blueberries.",
+      "price": 3.70,
+      "image": "https://www.splenda.com/wp-content/uploads/2020/05/blueberry-muffin-2000x1000.jpg"
+    },
+    {
+        "id" :"15",
+      "title": "Chocolate Truffle",
+      "previewDescription": "Rich chocolate bite-size truffles.",
+      "price": 4.90,
+      "image": "https://pastryliving.com/wp-content/uploads/2023/02/how-to-make-authentic-chocolate-truffles-square.jpg"
+    },
+    {
+        "id" :"16",
+      "title": "Lemon Tart",
+      "previewDescription": "Tangy lemon custard on crisp crust.",
+      "price": 5.25,
+      "image": "https://www.lanascooking.com/wp-content/uploads/2024/04/lemon-raspberry-tart-1200-feature.jpg"
+    },
+    {
+        "id" :"17",
+      "title": "Apple Pie",
+      "previewDescription": "Classic apple pie with cinnamon.",
+      "price": 5.60,
+      "image": "https://schoolnightvegan.com/wp-content/uploads/2022/11/vegan-apple-pie-25-500x500.jpg"
+    },
+    {
+        "id" :"18",
+      "title": "Tiramisu",
+      "previewDescription": "Layered Italian coffee dessert.",
+      "price": 6.50,
+      "image": "https://www.feastingathome.com/wp-content/uploads/2023/12/Tiramisu-13.jpg"
+    },
+    {
+        "id" :"19",
+      "title": "Chocolate Chip Cookie",
+      "previewDescription": "Warm cookie with chocolate chips.",
+      "price": 2.90,
+      "image": "https://cafeniloufer.com/cdn/shop/products/ChocoChip.jpg?v=1647518005"
+    },
+    {
+        "id" :"20",
+      "title": "Pistachio Cake",
+      "previewDescription": "Nutty pistachio-flavored cake.",
+      "price": 6.10,
+      "image": "https://simshomekitchen.com/wp-content/uploads/2023/12/Chocolate-cake-frosted-with-pistachioganache.jpg"
+    }
+  ]
+}
